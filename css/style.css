@@ -1,0 +1,28 @@
+#boxscore { margin-bottom: 20px; background:#FFF;}
+#boxscore h2 { height: 42px; line-height: 42px; background: url(/media/inside_titlebar_bgtile.gif) repeat-x; margin: 0px; font-size: 16px; text-indent: 20px; color:#000000;}
+#boxscore .inner { }
+#boxscore #scrubber { height:150px; margin:10px 40px; position:relative; overflow:hidden;}
+
+#boxscore .run { width: 88px; height: 32px; background: url(/media/inside_btn_runit.png) no-repeat; border: 0px; text-indent: -9999px; cursor: pointer; float:right; }
+
+#boxscore .details > div { height:60px; border:1 px solid #000000; font-size:10px; }
+#boxscore .details > div > div { float: left; }
+#boxscore .details > div > div.period { font-size:20px; color: #555; font-family: Georgia; padding:10px 5px; width:30px;}
+#boxscore .details > div > div.time { font-size:20px; color: #555; font-family: Georgia; padding:10px; }
+#boxscore .details > div > div.events { width: 320px; } 
+
+#playbyplay { margin-bottom: 20px; background:#FFF;}
+#playbyplay h2 { height: 42px; line-height: 42px; background: url(/media/inside_titlebar_bgtile.gif) repeat-x; margin: 0px; font-size: 16px; text-indent: 20px; color:#000000;}
+#playbyplay .inner { min-height:200px; max-height:300px; overflow-y:scroll;}
+#playbyplay .inner table.period-table {width:95%; border-spacing:0px; font-size:11px; font-weight:bold; margin:0 20px 20px 8px; border:1px solid #ccc; margin:20px auto;}
+#playbyplay .inner table.period-table tr:nth-child(even) {background: #efeff0;}
+#playbyplay .inner table.period-table tr:nth-child(odd) {background: #fff;}
+#playbyplay .inner table.period-table th {height:32px; line-height:32px; padding:0 3px; background:#d7d7d7 url(/media/standings_table_hdr_bgtile.gif) repeat-x center right;}
+#playbyplay .inner table.period-table th.multi-line {line-height:12px;}
+#playbyplay .inner table.period-table td {text-align:center; height:30px; line-height:30px; border-right:1px solid #cdcdcd;}
+#playbyplay .inner table.period-table td.vtm {text-align:right; padding-right:10px; width:45%;}
+#playbyplay .inner table.period-table td.htm {border-right:0px; text-align:left; padding-left:10px; width:45%;}
+#playbyplay .inner table.period-table td[colspan="3"] {text-align:center;}
+#playbyplay .inner table.period-table .player {width:125px; text-align:left; text-indent:3px;}
+#playbyplay .inner table.period-table a{color:#0066d1; text-decoration:none;}
+#playbyplay .inner table.period-table .score { color: #3aa; font-size:14px; font-weight:800;}
